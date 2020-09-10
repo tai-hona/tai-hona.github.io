@@ -1,8 +1,10 @@
 body {
-    background-color: 
-
+    background-color: darkmagenta;
+    color: yellow; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
-    font-size: 150pt;
-    font-family: bowlby one sc;
+    text-align: center;
+    font-size: 45pt;
+    
 }
