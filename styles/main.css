@@ -6,6 +6,7 @@ body {
 h1{
     text-align: center;
     font-size: 45pt;
-    margin-right: 
+    margin-right: 5px;
+    border-bottom: 5pt solid rgb(9, 43, 194);
     
 }
