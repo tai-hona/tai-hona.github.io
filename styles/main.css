@@ -1,12 +1,86 @@
+/**
+COLOUR PALLETTE
+#73BFAA
+#22593F
+#2DA661
+#85BF75
+#262521
+
+GOOGLE FONTS
+font-family: 'Bebas Neue', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+
+************************************************/
+/** Main**/
 body {
-    background-color: burlywood;
-    color: rgb(9, 43, 194); 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    background-color: white;
+    color:#22593F;
+    font-family: 'Kumbh Sans', sans-serif;
 }
+
 h1{
     text-align: center;
     font-size: 45pt;
     margin: -10px 0px 0px 0px;
     border-bottom: 5pt solid white;
-    font-family: Bebas Neue;
+    padding:20px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
 }
+
+
+/** Container for images**/
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* padding: 20px; */
+    flex-flow: row nowrap; 
+    justify-content: center;
+    padding-left: 110px;  
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 60%;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 200px;
+    justify-content: center;   
+}
+
+img {    
+    border-radius: 2.0%;
+    padding:10px;
+  }  
+
+.row {
+    display: flex;
+}
+
+
+/** Nav Menu**/
+li {
+    display: inline;
+    padding: 15px;
+    color:  #2DA661;
+    text-transform: uppercase; 
+    
+  }
+
+ul.nobullets {
+    list-style-type: none;
+    text-align: center;
+   
+}
+    
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
