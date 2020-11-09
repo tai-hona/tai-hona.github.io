@@ -91,3 +91,15 @@ a:visited {
     text-decoration: none;
 }
 
+@media(max-width: 320px){
+    body{
+     background-color: gray;
+    }
+}
+
+@media(max-width: 768px){
+    body{
+
+    }
+}
+
