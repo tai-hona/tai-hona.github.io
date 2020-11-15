@@ -97,9 +97,22 @@ a:visited {
     }
 }
 
+
+@media(min-width: 320px){
+    body{
+     background-color:violet;
+    }
+}
+
+
 @media(max-width: 768px){
     body{
-
+     background-color: lightblue;
+    }
+}
+@media(min-width: 768px){
+    body{
+     background-color: violet;
     }
 }
 
