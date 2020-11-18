@@ -91,28 +91,35 @@ a:visited {
     text-decoration: none;
 }
 
-@media(max-width: 320px){
-    body{
-     background-color: gray;
-    }
-}
+@media only screen and (max-width: 320px) {
+   body {
+       background-color: yellow;
+   }
 
-
-@media(min-width: 320px){
-    body{
-     background-color:violet;
+}   
+@media only screen and (min-width: 768px) {
+      body {
+          background-color: red;
+      }
     }
-}
 
+@media only screen and (min-width: 1200px) {
+    body {
+      background-color: rgb(45, 187, 16);
+      /* color: rgb(3, 32, 70); */
+    }
+  }
 
-@media(max-width: 768px){
-    body{
-     background-color: lightblue;
+/* @media only screen and (min-width: 1200px) {
+    .background {
+      font-size: large;
     }
-}
-@media(min-width: 768px){
-    body{
-     background-color: violet;
-    }
-}
+    ul {
+        font-family: 'Syne Mono', monospace;
+      }
+      p {
+          font-family: 'Syne Mono', monospace;
+          font-size: 30px;
+      } */
+
 
